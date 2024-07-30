@@ -3,7 +3,7 @@ import React from 'react'
 const Prosjecter = () => {
   return (
     <div>
-      
+      Prosjecter
     </div>
   )
 }
