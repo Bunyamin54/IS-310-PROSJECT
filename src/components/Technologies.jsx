@@ -9,13 +9,19 @@ import { SiFigma } from "react-icons/si"
 import { motion } from "framer-motion"
 
   const iconVariants = (duration) => ({
-    y: [10, -10],
+    initial : {y: 0},
+    animate:{
+
+      y: [10, -10],
     transition : {
       duration : duration,
       ease : "linear",
       repeat : Infinity,
       repeatType: "reverse"
     }
+
+    }
+    
   
 })
 
@@ -28,31 +34,67 @@ import { motion } from "framer-motion"
        variants={iconVariants(2.5)}
        initial="initial"
        animate="animate"
-      className='rounded-2xl border-2 border-neutral-500 p-5 w-32 h-32 flex items-center justify-center'> <RiReactjsLine className="text-7xl text-cyan-400"  /> </motion.div>
+      className='rounded-2xl border-2 border-neutral-500 p-5 w-32 h-32 flex items-center justify-center'> 
+      
+      <RiReactjsLine className="text-7xl text-cyan-400"  /> </motion.div>
 
-     <div className='rounded-2xl border-2 border-neutral-500 p-5 w-32 h-32 flex flex-col items-center justify-center'> <FaJava className="text-7xl text-amber-500"  />  <span className="text-2xl mt-2 block  text-red-600">Java</span >  </div>
+     <motion.div 
+     variants={iconVariants(3)}
+     initial="initial"
+     animate="animate"
 
-     <div className='rounded-2xl border-2 border-neutral-500 p-5 w-32 h-32 flex flex-col items-center justify-center'> <SiJavascript className="text-7xl text-yellow-400" /> </div> 
+     className='rounded-2xl border-2 border-neutral-500 p-5 w-32 h-32 flex flex-col items-center justify-center'> <FaJava className="text-7xl text-amber-500"  />  <span className="text-2xl mt-2 block  text-red-600">Java</span >  </motion.div>
+
+     <motion.div 
+     
+     variants={iconVariants(3.5)}
+     initial="initial"
+     animate="animate"
+     
+     
+     className='rounded-2xl border-2 border-neutral-500 p-5 w-32 h-32 flex flex-col items-center justify-center'> <SiJavascript className="text-7xl text-yellow-400" /> </motion.div> 
 
 
-     <div className='rounded-2xl border-2 border-neutral-500 p-5 w-32 h-32 flex items-center justify-center'> 
+     <motion.div 
+      variants={iconVariants(4)}
+      initial="initial"
+      animate="animate"
+     
+     className='rounded-2xl border-2 border-neutral-500 p-5 w-32 h-32 flex items-center justify-center'> 
           <SiTypescript className="text-7xl text-blue-400" />
 
-        </div> 
+        </motion.div> 
 
-     <div className='rounded-2xl border-2 border-neutral-500 p-5 w-32 h-32 flex items-center justify-center'> 
+     <motion.div 
+     
+     variants={iconVariants(5)}
+     initial="initial"
+     animate="animate"
+     
+     className='rounded-2xl border-2 border-neutral-500 p-5 w-32 h-32 flex items-center justify-center'> 
          <BiLogoPostgresql className="text-7xl text-cyan-600"/> 
-        </div> 
+        </motion.div> 
 
-        <div className='rounded-2xl border-2 border-neutral-500 p-5 w-32 h-32 flex flex-col items-center justify-center'> 
+        <motion.div 
+        
+        variants={iconVariants(2.5)}
+        initial="initial"
+        animate="animate"
+        
+        className='rounded-2xl border-2 border-neutral-500 p-5 w-32 h-32 flex flex-col items-center justify-center'> 
           <DiDotnet className="text-7xl" style={{ color: '#8626be' }} /> 
           <span className="text-1xl mt-2 block" style={{ color: '#007ACC' }}>ASP.NET</span> 
-        </div> 
+        </motion.div> 
 
-        <div className='rounded-2xl border-2 border-neutral-500 p-5 w-32 h-32 flex flex-col items-center justify-center'> 
+        <motion.div  
+        
+        variants={iconVariants(4)}
+        initial="initial"
+        animate="animate"
+        className='rounded-2xl border-2 border-neutral-500 p-5 w-32 h-32 flex flex-col items-center justify-center'> 
           <SiFigma className="text-7xl text-[#ed3434]" /> 
           <span className="text-1xl mt-2 block text-[#d53ada]">Figma</span> 
-        </div> 
+        </motion.div> 
      </div>
      
     </div>
