@@ -83,7 +83,13 @@ export const PROJECTS = [
 
 
 
-},
+}, ]
+  
+  export const CONTACT = {
+  adress: "Universitet i Agder Kristiansand",
+  email: "bunyaming@uia.no",
+  phoneNo:" +47 555 555"
+}
 
 
 
@@ -95,8 +101,3 @@ export const PROJECTS = [
 
 
 
-
-
-
-
-]

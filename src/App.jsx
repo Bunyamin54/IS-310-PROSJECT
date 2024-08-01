@@ -4,6 +4,7 @@ import Om_Oss from './components/Om_Oss'
 import Medlemmer from './components/Medlemmer'
 import Technologies from './components/Technologies'
 import Projects from './components/Projects'
+import Contact from './components/Contact'
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
        <Medlemmer/>
        <Technologies/>
        <Projects/>
+       <Contact/>
        
        
        </div>
