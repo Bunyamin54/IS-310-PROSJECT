@@ -1,5 +1,6 @@
 
 import { PROJECTS } from '../constants/data'
+import { motion } from "framer-motion"
 
 const Projects = () => {
   return (
