@@ -3,6 +3,7 @@ import Navbar from './components/Navbar'
 import Om_Oss from './components/Om_Oss'
 import Prosjecter from './components/Prosjecter'
 import Medlemmer from './components/Medlemmer'
+import Technologies from './components/Technologies'
 
 const App = () => {
   return (
@@ -10,8 +11,9 @@ const App = () => {
   
        <Navbar/>
        <Om_Oss/>
-       <Prosjecter/>
        <Medlemmer/>
+       <Technologies/>
+       <Prosjecter/>
  
     </div>
   )
