@@ -28,8 +28,8 @@ import { motion } from "framer-motion"
  const Technologies = () => {
   return (
     <div className='border-b border-neutral-800 pb-24'>
-     <h1  className='my-20 text-center text-4xl'> Technologies</h1>
-     <div className='flex flex-wrap items-center justify-center gap-4'>
+     <motion.h1 whileInView= {{opacity: 1, y:0 }} initial={{opacity:0, y: -100}} transition= {{duration: 1.5}}  className='my-20 text-center text-4xl'> Technologies</motion.h1>
+     <motion.div whileInView= {{opacity: 1, x:0 }} initial={{opacity:0, x: -100}} transition= {{duration: 1.5}} className='flex flex-wrap items-center justify-center gap-4'>
       <motion.div
        variants={iconVariants(2.5)}
        initial="initial"
@@ -95,7 +95,7 @@ import { motion } from "framer-motion"
           <SiFigma className="text-7xl text-[#ed3434]" /> 
           <span className="text-1xl mt-2 block text-[#d53ada]">Figma</span> 
         </motion.div> 
-     </div>
+     </motion.div>
      
     </div>
   )
