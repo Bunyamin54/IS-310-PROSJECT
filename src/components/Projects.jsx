@@ -24,8 +24,8 @@ const Projects = () => {
          whileInView={{opacity: 1, x:0 }} 
          initial={{opacity: 0, x: -100}}
          transition= {{duration: 1}} 
-         className='w-full lg:w-1/4'><img src={project.image} width={350} height={550} alt= {project.title} className='mb-6 rounded'
-           />
+         className='w-full lg:w-1/3 mb-6 lg:mb-0'><img src={project.image} width={450} height={650} alt= {project.title} className='mb-6 rounded'
+         style={{ objectFit: 'cover' }}   />
           </motion.div>
 
 
@@ -35,7 +35,7 @@ const Projects = () => {
              transition= {{duration: 1}}
             
             
-            className='w-full max-w-xl lg:w-3/4'> <h6 className='mb-3 font-semibold text-2xl' >{project.title}</h6>
+            className='w-full max-w-xl lg:w-2/3'> <h6 className='mb-3 font-semibold text-2xl' >{project.title}</h6>
             <p className='mb-4 text-neutral-400 '>{project.description} </p> 
             
             {project.technologies.map((tech, index) => (
