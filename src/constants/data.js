@@ -1,4 +1,4 @@
-import project1 from "../assets/projects/uialogo.png";
+import project1 from "../assets/projects/Appointment-app.gif";
 
 
 export const PROJECTS = [
