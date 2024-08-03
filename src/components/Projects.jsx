@@ -13,7 +13,7 @@ const Projects = () => {
 
       
       
-      className='my-20 text-center text-4xl'>Projects</motion.h1>
+      className='my-20 text-center text-4xl'>Our Projects</motion.h1>
 
       <div>  
         {PROJECTS.map((project, index) => (
