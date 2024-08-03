@@ -1,7 +1,7 @@
 import project1 from "../assets/projects/Appointment-app.gif";
 import project2 from "../assets/projects/React_Movie-app.gif";
 import project3 from "../assets/projects/NFH LEGENDS Håndballstjerner.gif";
-import project4 from "../assets/projects/Appointment-app.gif";
+import project4 from "../assets/projects/Nøsted-app.gif";
 import project5 from "../assets/projects/Appointment-app.gif";
 
 
@@ -41,55 +41,26 @@ export const PROJECTS = [
 
 },
 {
-  title : "Appointment App:",
-  image: project1,
-  description: "React, Bootstrap og JavaScript ble brukt i dette prosjektet. Både komponentstrukturen og modal CSSble benyttet. Brukeren fikk mulighet til å velge ønsket dag og klokkeslett hos legen han valgte, samt bruke funksjonene for å bestille time og avbestille.",
-  technologies: ["React, JavaScript, CSS, Bootstrap "]
+  title : "Digitalisering av serviceorder for Nøsted & AS",
+  image: project4,
+  description: "I digitaliseringsprosjektet for Nøsted & AS utviklet vi en webapplikasjon for å effektivisere håndteringen av serviceordrer for IGLAND-produkter. Ved å integrere løsningen med MS Business Central via REST API, automatiserte vi innsamling av produkt- og lagerdata, noe som forenkler registrering og oppfølging. Applikasjonen, tilgjengelig på tvers av enheter, forbedrer mekanikernes og kundenes evne til å håndtere servicebehov. Digitalisering av papirbaserte sjekklister styrket kommunikasjonen med kundene ved å gi bedre innsikt i utført arbeid og anbefalinger, noe som bidrar til bedre service og fremtidig forretningsutvikling.",
+  technologies: ["REST API, Asp.Net, Docker, Azure-Devops, MSSQL-Database, MVC-Architecture "]
 
 
 
 
 },
 {
-  title : "Appointment App:",
-  image: project1,
-  description: "React, Bootstrap og JavaScript ble brukt i dette prosjektet. Både komponentstrukturen og modal CSSble benyttet. Brukeren fikk mulighet til å velge ønsket dag og klokkeslett hos legen han valgte, samt bruke funksjonene for å bestille time og avbestille.",
-  technologies: ["React, JavaScript, CSS, Bootstrap "]
+  title : "UIA Asistenten:",
+  image: project5,
+  description: "UIA Asisten-prosjektet har som mål å utvikle en AI-drevet digital assistent for å forbedre utdanningsadministrasjon og studentveiledning ved Universitetet i Agder. Ved å automatisere akademisk planlegging, personlig rådgivning og læringsstøtte, hjelper løsningen både studenter og ansatte med å optimalisere studiehverdagen. Integrasjon med universitetets eksisterende systemer muliggjør sømløs administrasjon av tidsplaner, oppgaver og karriereplanlegging, noe som resulterer i økt studentengasjement og bedre akademiske resultater.",
+  technologies: ["Tjenestedesign, Workshop, Figma, SurveyXact, User Journey Mapping  "]
 
 
 
 
 },
-{
-  title : "Appointment App:",
-  image: project1,
-  description: "React, Bootstrap og JavaScript ble brukt i dette prosjektet. Både komponentstrukturen og modal CSSble benyttet. Brukeren fikk mulighet til å velge ønsket dag og klokkeslett hos legen han valgte, samt bruke funksjonene for å bestille time og avbestille.",
-  technologies: ["React, JavaScript, CSS, Bootstrap "]
-
-
-
-
-},
-{
-  title : "Appointment App:",
-  image: project1,
-  description: "React, Bootstrap og JavaScript ble brukt i dette prosjektet. Både komponentstrukturen og modal CSSble benyttet. Brukeren fikk mulighet til å velge ønsket dag og klokkeslett hos legen han valgte, samt bruke funksjonene for å bestille time og avbestille.",
-  technologies: ["React, JavaScript, CSS, Bootstrap "]
-
-
-
-
-},
-{
-  title : "Appointment App:",
-  image: project1,
-  description: "React, Bootstrap og JavaScript ble brukt i dette prosjektet. Både komponentstrukturen og modal CSSble benyttet. Brukeren fikk mulighet til å velge ønsket dag og klokkeslett hos legen han valgte, samt bruke funksjonene for å bestille time og avbestille.",
-  technologies: ["React, JavaScript, CSS, Bootstrap "]
-
-
-
-
-}, ]
+ ]
   
   export const CONTACT = {
   adress: "Universitet i Agder Kristiansand",
