@@ -2,7 +2,7 @@ import project1 from "../assets/projects/Appointment-app.gif";
 import project2 from "../assets/projects/React_Movie-app.gif";
 import project3 from "../assets/projects/NFH LEGENDS Håndballstjerner.gif";
 import project4 from "../assets/projects/Nøsted-app.gif";
-import project5 from "../assets/projects/Appointment-app.gif";
+import project5 from "../assets/projects/UIA-ASISTENTEN.gif";
 
 
 export const PROJECTS = [
