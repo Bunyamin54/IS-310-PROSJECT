@@ -7,6 +7,7 @@ import project5 from "../assets/projects/UIA-ASISTENTEN.gif";
 
 export const PROJECTS = [
 
+  
 
 {
   title : "Appointment App:",
