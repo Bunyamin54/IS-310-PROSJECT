@@ -1,33 +1,32 @@
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Navbar from './components/Navbar';
 
-import Navbar from './components/Navbar'
-import Om_Oss from './components/Om_Oss'
-import Medlemmer from './components/Medlemmer'
-import Technologies from './components/Technologies'
-import Projects from './components/Projects'
-import Contact from './components/Contact'
-
-const App = () => {
-  return (
-       <div className='overflow-x-hidden text-neutral-300 antialiased  selection:bg-cyan-300 selection:text-cyan-900'>
-
-        <div className='fixed top-0 left-0 w-screen h-screen -z-10 bg-neutral-950'></div>
-
-        <div className="fixed top-0 left-0 w-screen h-screen z-[-9] bg-fuchsia-400 bg-[size:20px_20px] opacity-20 blur-[100px]"></div>
-
-          <div className='container mx-auto px-8'>
-
-       <Navbar/>
-       <Om_Oss/>
-       <Medlemmer/>
-       <Technologies/>
-       <Projects/>
-       <Contact/>
-       
-       
-       </div>
-       
-    </div>
-  )
+function Home() {
+  return <h2>Home Page</h2>;
 }
 
-export default App
+function About() {
+  return <h2>About Page</h2>;
+}
+
+function Contact() {
+  return <h2>Contact Page</h2>;
+}
+
+function App() {
+  return (
+    <Router>
+      <div className="App">
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </div>
+    </Router>
+  );
+}
+
+export default App;
