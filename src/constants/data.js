@@ -63,15 +63,26 @@ export const PROJECTS = [
 },
  ]
   
-  export const CONTACT = {
+export const CONTACT = {
   adress: "Universitet i Agder Kristiansand",
   email: "bunyaming@uia.no",
   phoneNo:" +47 555 555"
 }
 
 
+export const MEHMET_CONTENT = "Hei! Jeg er Mehmet Turker Tuncer. Jeg er en IT-student ved Universitetet i Agder som skal uteksamineres i 2025.  Som en junior full-stack-utvikler har jeg ferdigheter i REACTjs, JavaScript, HTML, CSS, TypeScript, Bootstrap5, SQL, Docker, Linux og Java. Teknologiinnovasjoner og teknologiske innretninger er blant temaene jeg følger nysgjerrig på. Min største lykke er å tilbringe tid med familien min.";
+
+export const Bunyamin_Content = "";
+
+export const Tahir_Content = "";
 
 
+
+export const profiles = [
+  { name: 'Mehmet Turker Tuncer', content: 'Hei! Jeg er Mehmet Turker Tuncer. Jeg er en IT-student ved Universitetet i Agder som skal uteksamineres i 2025.  Som en junior full-stack-utvikler har jeg ferdigheter i REACTjs, JavaScript, HTML, CSS, TypeScript, Bootstrap5, SQL, Docker, Linux og Java. <br/> Teknologiinnovasjoner og teknologiske innretninger er blant temaene jeg følger nysgjerrig på. Min største lykke er å tilbringe tid med familien min.' },
+  { name: 'Bunyamin Genc', content: 'Bunyamin is an expert in backend systems and database management.' },
+  { name: 'Tahir Arslan', content: 'Tahir is a versatile developer skilled in both frontend and backend.' }
+];
 
 
 
